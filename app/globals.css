@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+/* ProgressBar.css */
+.progress-bar-container {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+.progress-bar-filler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+.progress-bar-label{
+  position: absolute;
+color:blue;
+  top:10px;
+
+
+
+}
+.progress-bar-word{
+   position: absolute;
+  color:gray;
+  top:-40px;
+  border: 1px solid  ;
+  border-radius: 100%;
+  padding: 5px;
+
+}
+
+
