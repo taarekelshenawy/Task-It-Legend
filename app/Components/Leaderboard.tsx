@@ -16,13 +16,13 @@ export default function LeaderboardModal({open,setOpen}:ModalProps) {
   ];
 
   return (
-    <div className="flex flex-col  items-center fixed justify-center h-screen bg-gray-100">
+    <div className="flex flex-col  items-center  justify-center h-screen bg-gray-100">
     
 
     
       {open && (
         <div className="fixed inset-0 flex items-center justify-center bg-black/50 bg-opacity-50 z-50">
-          <div className="bg-white w-96 p-5 rounded-2xl shadow-lg relative">
+          <div className="bg-white w-96 p-5 rounded-2xl shadow-lg relative ">
             <h2 className="text-xl font-semibold text-center mb-3 border-b pb-2">
               آراء الطلاب 🌟
             </h2>

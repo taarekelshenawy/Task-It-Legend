@@ -25,7 +25,7 @@ export default function Videopage() {
   return (
     <div className="flex flex-col basis-[60%] mt-5">
       
-      <div className="relative w-full h-[500px] max-sm:sticky top-0 ">
+      <div className="relative w-full h-[500px] max-sm:sticky top-0 z-10 ">
         {displayimg ? (
           <Image
             src={video_img}
@@ -86,7 +86,7 @@ export default function Videopage() {
       </div>
 
       <CourseMaterial />
-      <div className="block md:hidden mt-5">
+      <div className="block md:hidden mt-5 px-5">
         <Topics />
       </div>
       <Comments />
